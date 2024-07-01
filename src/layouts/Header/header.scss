@@ -1,0 +1,86 @@
+.AppHeader{
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    padding: 8px 32px 10px 35px;
+    border-bottom: 1px solid var(--Layer-layer-hover-02, #E8E8E8);
+    background: #FFF;
+    .companyLogo{
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 0.32px;
+        line-height: 16px;
+        span{
+            color: #00e5ff;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            letter-spacing: .32px;
+            line-height: 16px;
+        }
+    }
+    .alignNotification{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        column-gap: 24px;
+.cart-item{
+    .itemssquntiti{
+        top: 14%;
+    position: absolute;
+    right: 7%;
+    }
+}
+     
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .AppHeader{
+        z-index: 1;
+        width: 100%;
+        position: fixed;
+        display: flex;
+        height: 60px;
+        justify-content: space-between;
+        padding: 15px;
+        border-bottom: 1px solid var(--Layer-layer-hover-02, #E8E8E8);
+        background: #FFF;
+        align-items: center;
+        .logoIcon{
+            width: 120px;
+    height: 35px;
+    object-fit: contain;
+        }
+        .alignNotification{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            column-gap: 10px;
+            div{
+               text-align: center;
+            }
+            div>.notifiction{
+                color: #000;
+    text-align: right;
+    font-family: "IBM Plex Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+            }
+        }
+        .imgIcon{
+            width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+        }
+}
+}
